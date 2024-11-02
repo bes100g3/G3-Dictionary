@@ -1,0 +1,81 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #777;
+    text-align: justify;
+    background: linear-gradient(to right, #a8c8f1, #e9ecef);
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.navigation-bar {
+    margin: 20px 0; /* Space above and below the nav */
+}
+
+.navigation-bar ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Display items in a row */
+    gap: 15px; /* Space between buttons */
+}
+
+.navigation-bar button {
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border-color: #0056b3;
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth background change */
+}
+
+.navigation-bar button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.description {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #777;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .description {
+        padding: 15px;
+    }
+}
